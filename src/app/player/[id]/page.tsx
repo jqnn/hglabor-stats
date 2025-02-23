@@ -7,6 +7,10 @@ import {isUUID, loadPlayerName, loadPlayerUUID} from "@/api/api";
 import {Player} from "@/schema/Player";
 import Image from 'next/image';
 
+/*
+TODO:
+- add hero stats
+ */
 export default function Post() {
     const {id} = useParams();
     const stringId = String(id);
