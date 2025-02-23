@@ -2,7 +2,7 @@ name: 'Docker Build'
 on:
   push:
     branches:
-      - main
+      - master
       - development
   workflow_dispatch:
 
@@ -22,6 +22,6 @@ jobs:
       tag: "development"
   docker-production:
     uses: ./.github/workflows/docker-build.yaml
-    if: "github.ref == 'refs/heads/main'"
+    if: "github.ref == 'refs/heads/master'"
     with:
       tag: "latest"
