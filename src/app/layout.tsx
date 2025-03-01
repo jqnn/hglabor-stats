@@ -13,12 +13,12 @@ export default function RootLayout({children}: Readonly<{ children: React.ReactN
         <html lang="de">
         <body className="min-h-screen">
 
-        <div className="w-3/5 mx-auto p-8 ">
+        <div className="w-full max-w-5xl mx-auto p-4 sm:p-8">
             <header className="text-center mb-6">
                 <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-500 to-blue-700 text-transparent bg-clip-text mb-1">
                     <Link href="/">FFA Stats</Link>
                 </h1>
-                <p className="text-zinc-400">Check your stats and compare yourself with others</p>
+                <p className="text-zinc-400 text-sm sm:text-base">Check your stats and compare yourself with others</p>
             </header>
 
             <SearchComponent/>
@@ -26,6 +26,7 @@ export default function RootLayout({children}: Readonly<{ children: React.ReactN
             {children}
             <FooterComponent/>
         </div>
+
         </body>
         </html>
     );

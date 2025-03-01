@@ -1,7 +1,7 @@
 export function FooterComponent() {
     return (
-        <footer className="justify-center mt-20 pb-8 text-center text-zinc-400 flex gap-6 p-4 h-16">
-            <a href="https://www.github.com/Jqnn/hglabor-stats" className="flex gap-2 align-baseline">
+        <footer className="justify-center mt-20 pb-8 text-center text-zinc-400 flex flex-wrap gap-6 p-4 h-auto">
+            <a href="https://www.github.com/Jqnn/hglabor-stats" className="flex gap-2 items-center">
                 <svg xmlns="http://www.w3.org/2000/svg"
                      viewBox="0 0 496 512" className="h-6 fill-stone-200">
                     <path
@@ -9,7 +9,7 @@ export function FooterComponent() {
                 </svg>
                 <span className="hover:underline hidden md:block">GitHub</span>
             </a>
-            <a href="https://www.youtube.com/@NoRiskk" className="flex gap-2 align-baseline">
+            <a href="https://www.youtube.com/@NoRiskk" className="flex gap-2 items-center">
                 <svg xmlns="http://www.w3.org/2000/svg"
                      viewBox="0 0 576 512" className="h-6 fill-zinc-200">
                     <path
@@ -17,17 +17,17 @@ export function FooterComponent() {
                 </svg>
                 <span className="hover:underline hidden md:block">YouTube</span>
             </a>
-            <a href="https://discord.gg/wDEKjSWz36" className="flex gap-2 align-baseline">
+            <a href="https://discord.gg/wDEKjSWz36" className="flex gap-2 items-center">
                 <svg xmlns="http://www.w3.org/2000/svg"
                      viewBox="0 0 640 512" className="h-6 fill-zinc-200">
                     <path
-                        d="M524.5 69.8a1.5 1.5 0 0 0 -.8-.7A485.1 485.1 0 0 0 404.1 32a1.8 1.8 0 0 0 -1.9 .9 337.5 337.5 0 0 0 -14.9 30.6 447.8 447.8 0 0 0 -134.4 0 309.5 309.5 0 0 0 -15.1-30.6 1.9 1.9 0 0 0 -1.9-.9A483.7 483.7 0 0 0 116.1 69.1a1.7 1.7 0 0 0 -.8 .7C39.1 183.7 18.2 294.7 28.4 404.4a2 2 0 0 0 .8 1.4A487.7 487.7 0 0 0 176 479.9a1.9 1.9 0 0 0 2.1-.7A348.2 348.2 0 0 0 208.1 430.4a1.9 1.9 0 0 0 -1-2.6 321.2 321.2 0 0 1 -45.9-21.9 1.9 1.9 0 0 1 -.2-3.1c3.1-2.3 6.2-4.7 9.1-7.1a1.8 1.8 0 0 1 1.9-.3c96.2 43.9 200.4 43.9 295.5 0a1.8 1.8 0 0 1 1.9 .2c2.9 2.4 6 4.9 9.1 7.2a1.9 1.9 0 0 1 -.2 3.1 301.4 301.4 0 0 1 -45.9 21.8 1.9 1.9 0 0 0 -1 2.6 391.1 391.1 0 0 0 30 48.8 1.9 1.9 0 0 0 2.1 .7A486 486 0 0 0 610.7 405.7a1.9 1.9 0 0 0 .8-1.4C623.7 277.6 590.9 167.5 524.5 69.8zM222.5 337.6c-29 0-52.8-26.6-52.8-59.2S193.1 219.1 222.5 219.1c29.7 0 53.3 26.8 52.8 59.2C275.3 311 251.9 337.6 222.5 337.6zm195.4 0c-29 0-52.8-26.6-52.8-59.2S388.4 219.1 417.9 219.1c29.7 0 53.3 26.8 52.8 59.2C470.7 311 447.5 337.6 417.9 337.6z"/>
+                        d="M524.5 69.8a1.5 1.5 0 0 0 -.8-.7A485.1 485.1 0 0 0 404.1 32a1.8 1.8 0 0 0 -1.9 .9 337.5 337.5 0 0 0 -14.9 30.6 447.8 447.8 0 0 0 -134.4 0 309.5 309.5 0 0 0 -15.1-30.6 1.9 1.9 0 0 0 -1.9-.9A483.7 483.7 0 0 0 116.1 69.1a1.7 1.7 0 0 0 -.8 .7C39.1 183.7 18.2 294.7 28.4 404.4a2 2 0 0 0 .8 1.4A487.7 487.7 0 0 0 176 479.9a1.9 1.9 0 0 0 2.1-.7A348.2 348.2 0 0 0 208.1 430.4a1.9 1.9 0 0 0 -1-2.6 321.2 321.2 0 0 1 -45.9-21.9 1.9 1.9 0 0 1 -.2-3.1c3.1-2.3 6.2-4.7 9.1-7.1a1.8 1.8 0 0 1 1.9-.3c96.2 43.9 200.4 43.9 295.5 0a1.8 1.8 0 0 1 1.9 .2c2.9 2.4 6 4.9 9.1 7.2a1.9 1.9 0 0 1 -.2 3.1 301.4 301.4 0 0 1 -45.9 21.8 1.9 1.9 0 0 0 -1 2.6 391.1 391.1 0 0 0 30 48.8 1.9 1.9 0 0 0 2.1 .7A486 486 0 0 0 601.6 405a2 2 0 0 0 .8-1.4C621.7 294.7 600.8 183.7 524.5 69.8z"/>
                 </svg>
                 <span className="hover:underline hidden md:block">Discord</span>
             </a>
-            <a href="https://norisk.gg" className="flex gap-2 align-baseline">
+            <a href="https://norisk.gg" className="flex gap-2 items-center">
                 <svg xmlns="http://www.w3.org/2000/svg"
-                     viewBox="0 0 512 512" className="h-6 fill-zinc-200">
+                     viewBox="0 0 640 512" className="h-6 fill-zinc-200">
                     <path
                         d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 242.7-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7 288 32zM64 352c-35.3 0-64 28.7-64 64l0 32c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-32c0-35.3-28.7-64-64-64l-101.5 0-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352 64 352zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/>
                 </svg>
